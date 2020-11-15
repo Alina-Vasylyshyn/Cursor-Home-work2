@@ -7,7 +7,7 @@ public class ArrayAverage {
         for (int i = 0; i < array.length; i++) {
             sum += array[i];
         }
-        double avg = sum / array.length;
+        int avg = sum / array.length;
         System.out.println(avg);
     }
 }
